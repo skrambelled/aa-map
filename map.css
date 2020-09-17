@@ -1,0 +1,69 @@
+body {
+  background: black;
+  color: white;
+  
+  font-family: 'B612 Mono', courier, monospace;
+  font-size: 15px;
+
+}
+
+table {
+  border-style: dashed;
+  border-color: white;
+  border-width: 1px;
+}
+
+td {
+  padding: 2px;
+}
+
+th {
+  font-size: 12px;
+}
+
+.beach     {color: #808000;} /* :: deserts, beach */
+.lforest   {color: #008000;} /* oo light forest */
+.forest    {color: #008000;} /* OO forest */
+.thicket   {color: #008000;} /* 88 thicket, bushes */
+.hill      {color: #808000;} /* ^^ hills */
+.mountain  {color: #808000;} /* /\ mountains */
+.rocky     {color: #800000;} /* xx rocky desert */
+.barren    {color: #FF0000;} /* XX barren, rugged */
+.sea       {color: #0000FF;} /* == sea, lake */
+.swamp     {color: #008080;} /* -- swamp, marsh */
+.village   {color: #FF0000;} /* [] fortified village */
+.building  {color: #800080;} /* #  building */
+.path      {color: #800000;} /* +  path, sign */
+.river     {color: #008080;} /* ~~ stream, river */
+.cave      {color: #AAAAAA;} /* @  dungeon, cave */
+.open      {color: #00FF00;} /* Y  open-air areas */
+.grassland {color: #008000;} /* "  grasslands */
+.glacier   {color: #00FFFF;} /* ** icecap, glacier */
+.bridge    {color: #00FFFF;} /* |  bridge, ford */
+.harbour   {color: #800000;} /* H  harbor, pier */
+
+/*
+    case ":": return "beach";     // dessert
+    case "o": return "lforest";
+    case "O": return "forest";
+    case "8": return "thicket";
+    case "^": return "hill";
+    //case "z": what is this unused map sym?
+    case "x": return "rocky";
+    case "X": return "barren";     // rugged?
+    case "=": return "sea";        // lake
+    case "-": return "swamp";      // marsh?
+    case "#": return "building";   // ## is settlement
+    case "]": return "village";
+    case "[": return "village";
+    case "+": return "path";
+    case "@": return "cave";       // dungeon
+    case "/": return "mountain";
+    case "\\":return "mountain";
+    case "H": return "harbour";
+    case "\"":return "mountain";
+    case "~": return "river";
+    case "Y": return "open";
+    case "*": return "glacier";
+    case "|": return "bridge";     // ford
+*/
