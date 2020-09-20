@@ -7,10 +7,20 @@ body {
 
 }
 
-table {
-  border-style: dashed;
-  border-color: white;
-  border-width: 1px;
+th.left {
+  border-right: 1px dashed white;
+}
+
+th.right {
+  border-left: 1px dashed white;
+}
+
+th.top {
+  border-bottom: 1px dashed white;
+}
+
+th.bottom {
+  border-top: 1px dashed white;
 }
 
 td {
