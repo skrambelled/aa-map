@@ -42,11 +42,11 @@ th {
 .bridge    {color: #00FFFF;} /* |  bridge, ford */
 .harbour   {color: #800000;} /* H  harbor, pier */
 
-.depth1    { color: #0099FF; }
-.depth2    { color: #0066FF; }
-.depth3    { color: #0000FF; }
-.depth4    { color: #0000CC; }
-.depth5    { color: #000066; }
+.depth1    { color: #2146ff; }
+.depth2    { color: #0052ce; }
+.depth3    { color: #0000b9; }
+.depth4    { color: #000086; }
+.depth5    { color: #00004a; }
 
 /*
     case ":": return "beach";     // dessert
