@@ -7,21 +7,10 @@ body {
 
 }
 
-table .top {
-  border-bottom: thin dashed white;
-}
-
-table .bottom {
-  border-top: thin dashed white;
-}
-
-table .left {
-  border-right: thin dashed white;
-}
-
-table .right {
-  border-left: thin dashed white;
-
+table {
+  border-style: dashed;
+  border-color: white;
+  border-width: 1px;
 }
 
 td {
@@ -40,7 +29,7 @@ th {
 .mountain  {color: #808000;} /* /\ mountains */
 .rocky     {color: #800000;} /* xx rocky desert */
 .barren    {color: #FF0000;} /* XX barren, rugged */
-.sea       {color: #0000FF;} /* == sea, lake */
+/*.sea       {color: #0000FF;} /* == sea, lake */
 .swamp     {color: #008080;} /* -- swamp, marsh */
 .village   {color: #FF0000;} /* [] fortified village */
 .building  {color: #800080;} /* #  building */
@@ -52,6 +41,12 @@ th {
 .glacier   {color: #00FFFF;} /* ** icecap, glacier */
 .bridge    {color: #00FFFF;} /* |  bridge, ford */
 .harbour   {color: #800000;} /* H  harbor, pier */
+
+.depth1    { color: #0099FF; }
+.depth2    { color: #0066FF; }
+.depth3    { color: #0000FF; }
+.depth4    { color: #0000CC; }
+.depth5    { color: #000066; }
 
 /*
     case ":": return "beach";     // dessert
