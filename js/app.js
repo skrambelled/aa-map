@@ -1,6 +1,6 @@
-var table = document.getElementsByClassName('table')[0];
+var map = document.getElementById('map');
 
-table.addEventListener('click', handleClick);
+map.addEventListener('click', handleClick);
 
 var handleClick = function (event) {
   console.log(event.target);
